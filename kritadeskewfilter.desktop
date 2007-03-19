@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Deskew Filter
+Comment=Deskew filter
+ServiceTypes=Krita/Filter
+Type=Service
+X-KDE-Library=kritadeskewfilter
+X-Krita-Version=2
