@@ -1,6 +1,6 @@
-kritarcdir = $(kde_datadir)/krita/kritadeskewfilter.desktop
+kritarcdir = $(kde_datadir)/krita/kritaplugins
 
-kde_services_DATA = kritaLineSampler.desktop
+kde_services_DATA = kritadeskewfilter.desktop
 
 
 INCLUDES  =  -I$(srcdir)/../../../sdk \
