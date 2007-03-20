@@ -7,7 +7,7 @@ kde3_automoc(${kritadeskewfilter_PART_SRCS})
 
 kde3_add_kpart(kritadeskewfilter ${kritadeskewfilter_PART_SRCS})
 
-# target_link_libraries(kritablurfilter ${KRITAUI_LIBRARY})
+target_link_libraries(kritadeskewfilter ${KRITAUI_LIBRARY})
 
 install(TARGETS kritadeskewfilter  DESTINATION ${PLUGIN_INSTALL_DIR})
 
