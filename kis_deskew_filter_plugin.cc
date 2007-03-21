@@ -34,6 +34,12 @@ KisDeskewFilterPlugin::KisDeskewFilterPlugin(QObject *parent, const char *name, 
 {
     setInstance(KisDeskewFilterPluginFactory::instance());
 
+    kdDebug(41006) << "Deskew filter plugin. Class: "
+    << className()
+    << ", Parent: "
+    << parent -> className()
+    << "\n";
+
     if (parent->inherits("KisFilterRegistry")) {
         KisFilterRegistry * manager = dynamic_cast<KisFilterRegistry *>(parent);
         manager->add(new KisDeskewFilter());

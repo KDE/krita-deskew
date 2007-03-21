@@ -1,4 +1,4 @@
-include_directories(${CMAKE_CURRENT_BINARY_DIR} ./)
+include_directories(${CMAKE_CURRENT_BINARY_DIR} ./ )
 
 set(kritadeskewfilter_PART_SRCS
 bitutil.cc bwimage.cc deskewer.cc kis_deskew_filter.cc kis_deskew_filter_plugin.cc kritafact.cc   )
